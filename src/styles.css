@@ -1,0 +1,84 @@
+body {
+  background: linear-gradient(0.25turn, rgb(7, 7, 7), rgb(10, 10, 10), #1a1a1a);
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+footer {
+  width: 100%;
+  height: 90px;
+  color: rgb(241, 239, 239);
+  font-family: monospace;
+}
+
+header {
+  margin: 0px 0px 5px 0px;
+  padding: 10px 0px 10px 0px;
+}
+
+.branding {
+  float: left;
+  padding: 5px 0px 0px 0px;
+}
+
+header h1 {
+  font-size: 25px;
+  font-family: monospace;
+}
+
+header h1 strong {
+  color: #fd2155;
+}
+
+header h2 {
+  font-size: 15px;
+}
+
+header ul {
+  list-style-type: none;
+  float: right;
+  padding-top: 20px;
+}
+
+header li {
+  font-size: 15px;
+  font-family: monospace;
+  display: inline;
+  margin: 0px 20px 0px 20px;
+  text-align: center;
+}
+
+.introduction {
+  width: 60%;
+  padding: 100px 0px 100px 0px;
+  margin: 50px 0px 50px 0px;
+}
+
+.introduction h1 {
+  font-size: 20px;
+  font-family: monospace;
+  color: #fd2155;
+}
+
+.introduction h2 {
+  font-size: 5em;
+  color: #f1efef;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+}
+
+.introduction h3 {
+  font-size: 3em;
+  font-family: verdana;
+  color: #b1acac;
+}
+
+footer {
+  text-align: center;
+  margin: 10px 0px 0px 0px;
+  padding: 10px 0px 0px 0px;
+  color: #fd2155;
+  font-size: 1.3rem;
+}
