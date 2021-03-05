@@ -50,6 +50,17 @@ header li {
   text-align: center;
 }
 
+header a {
+  text-decoration: none;
+  color: rgb(241, 239, 239);
+  transition: 0.4s;
+}
+
+header a:hover {
+  color: #fd2155;
+  cursor: pointer;
+}
+
 .introduction {
   width: 60%;
   padding: 100px 0px 100px 0px;
