@@ -4,9 +4,11 @@ $(document).ready(function() {
        $('.navbar').addClass("sticky");
       } else {
         $('.navbar').removeClass("sticky");
-        
     }
-  })
-}
+  });
+  $('.navbar .menu-button').click(function() {
+    $('.navbar .menu').toggleClass("active");
+    $('.navbar .menu-button i').toggleClass("active");
+  });
 
-)
+});
