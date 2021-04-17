@@ -1,12 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
 /* Navbar styling */
 .navbar {
-  position: fixed;
+  position: sticky;
   width: 100%;
   font-family: monospace;
   color: #fff;
   padding: 15px 25px;
   transition: all 0.3s ease;
   background: #000;
+  top: 0;
+  z-index: 999;
 }
 
 .navbar.sticky {
@@ -25,8 +33,7 @@
   cursor: pointer;
 }
 
-.navbar .header,
-.home .home-section {
+.navbar .header {
   width: 100%;
   display: flex;
   align-items: center;
@@ -82,20 +89,21 @@
 .home {
   display: flex;
   height: 100vh;
+  width: 100%;
   color: #fff;
   font-family: monospace;
   background: #000;
+  background-size: 800px;
   min-height: 500px;
-  min-width: 400px;
 }
 
 .home .home-section {
+  margin: auto auto;
+  text-align: center;
 }
 
 .home .home-section .home-content {
-  margin: 0 auto;
   text-align: center;
-  padding: 0 auto;
 }
 
 .home .home-content .text1 {
@@ -117,6 +125,60 @@
   color: #b1acac;
 }
 
+/* About me section styling */
+section {
+  padding: 100px 0;
+}
+
+.about {
+  background: #fff;
+  width: 100%;
+}
+
+.about .title {
+  position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width:75%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.about-content .about-photo {
+
+}
+
+.about-content .about-text {
+  padding: 20px 50px 20px 50px;
+  text-align:justify;
+}
+
+.about-content .about-text p {
+  margin: 0;
+  display: inline;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.about-content img {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+  padding: 0 25px;
+  display: inline;
+}
+
 /*
 
 footer {
@@ -129,6 +191,19 @@ footer {
 */
 
 /* media query start */
+
+@media (max-width: 1140px) {
+  .about-content {
+  display: block;
+  flex-wrap: wrap;
+  width: 75%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+}
+
 @media (max-width: 700px) {
   .navbar .menu {
     position: fixed;
@@ -166,5 +241,9 @@ footer {
     display: inline-block;
     margin: 20px 0;
     font-size: larger;
+  }
+
+  .home .home-content {
+    font-size: smaller;
   }
 }
