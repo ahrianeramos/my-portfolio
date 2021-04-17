@@ -19,7 +19,7 @@ body {
 
 .navbar.sticky {
   padding: 12px 25px;
-  background: #fd2155;
+  background: #000;
 }
 
 .navbar .header a {
@@ -92,7 +92,7 @@ body {
   width: 100%;
   color: #fff;
   font-family: monospace;
-  background: #000;
+  background: #0e0e0e;
   background-size: 800px;
   min-height: 500px;
 }
@@ -154,9 +154,6 @@ section {
   margin: 0 auto;
 }
 
-.about-content .about-photo {
-}
-
 .about-content .about-text {
   padding: 20px 50px 20px 50px;
   text-align: justify;
@@ -180,7 +177,6 @@ section {
 }
 
 /*
-
 footer {
   text-align: center;
   margin: 10px 0px 0px 0px;
@@ -200,6 +196,7 @@ footer {
     padding: 0 auto;
   }
 }
+
 @media (max-width: 670px) {
   .about-content img {
     border-radius: 50px;
@@ -211,17 +208,15 @@ footer {
     margin: 0 auto;
   }
   .about-content .about-text p {
-  margin: 0 auto;
-  display: inline;
-  line-height: 5px;
-  font-size: 10px;
-  text-align: center;
-}
-
-.about-content .about-text {
-  padding: 20px 25px 20px 25px;
-}
-
+    margin: 0 auto;
+    display: inline;
+    line-height: 5px;
+    font-size: 10px;
+    text-align: center;
+  }
+  .about-content .about-text {
+    padding: 20px 25px 20px 25px;
+  }
   .navbar .menu {
     position: fixed;
     height: 100vh;
@@ -233,7 +228,6 @@ footer {
     padding-top: 85px;
     transition: all 0.3s ease;
   }
-
   .navbar .menu-button {
     color: #fff;
     cursor: pointer;
@@ -243,7 +237,6 @@ footer {
     right: 25px;
     z-index: 999;
   }
-
   .navbar .menu.active {
     left: 0;
   }
@@ -257,20 +250,13 @@ footer {
     display: inline-block;
     margin: 20px 0;
     font-size: larger;
-      transition: 0.4s;
+    transition: 0.4s;
   }
   .navbar .header .menu a:hover {
-  color: #fd2155;
-  cursor: pointer;
-}
-
+    color: #fd2155;
+    cursor: pointer;
+  }
   .home .home-content {
     font-size: smaller;
   }
-
 }
-
-
-
-@media (max-width: 700px) {
-
