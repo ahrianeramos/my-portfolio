@@ -114,14 +114,14 @@ body {
 
 .home .home-content .text2 {
   font-size: 5em;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Sora", sans-serif;
   color: rgb(255, 255, 255);
   font-weight: bolder;
 }
 
 .home .home-content .text3 {
   font-size: 3em;
-  font-family: verdana;
+  font-family: "Sora", sans-serif;
   color: #b1acac;
 }
 
@@ -178,7 +178,7 @@ section {
 
 /* Projects section styling */
 .projects {
-  background: #0E0E0E;
+  background: #0e0e0e;
   width: 100%;
   color: #fff;
 }
@@ -200,7 +200,7 @@ section {
   width: 90%;
   text-align: center;
   margin: 0 auto;
-  background: #0E0E0E;
+  background: #0e0e0e;
 }
 .projects .card {
   border: none;
@@ -208,6 +208,7 @@ section {
   margin: 0 10px;
   padding: 15px 10px;
   border-radius: 15px;
+  display: block;
 }
 
 .projects .weather-app-ss {
@@ -219,15 +220,14 @@ section {
 }
 
 .projects img:hover {
-  width:350px;
-  opacity: .5;
+  width: 305px;
+  opacity: 0.5;
 }
-
 
 .projects h1 {
   font-size: 28px;
   color: #fff;
-  font-family: 'Sora', sans-serif;
+  font-family: "Sora", sans-serif;
 }
 
 .projects p {
@@ -235,14 +235,12 @@ section {
 }
 
 .projects .card:hover {
-  background:rgba(44, 44, 44, 0.9)
+  background: rgba(44, 44, 44, 0.9);
 }
 
 .projects .weather-app-description {
   margin: 20px auto;
 }
-
-
 
 /*
 footer {
