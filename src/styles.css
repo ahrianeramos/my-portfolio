@@ -55,7 +55,7 @@ body {
 
 .navbar.sticky .logo a {
   font-family: monospace;
-  color: #fff;
+  color: #fd2155;
   text-decoration: none;
 }
 
@@ -104,6 +104,7 @@ body {
 
 .home .home-section .home-content {
   text-align: center;
+  padding: 0 5px;
 }
 
 .home .home-content .text1 {
@@ -117,9 +118,11 @@ body {
   font-family: "Sora", sans-serif;
   color: rgb(255, 255, 255);
   font-weight: bolder;
+  padding: 0 10px;
 }
 
 .home .home-content .text3 {
+  padding: 0 10px;
   font-size: 3em;
   font-family: "Sora", sans-serif;
   color: #b1acac;
@@ -197,41 +200,51 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 90%;
+  width: 85vw;
   text-align: center;
   margin: 0 auto;
   background: #0e0e0e;
 }
+
 .projects .card {
   border: none;
   background: rgba(44, 44, 44, 0.5);
-  margin: 0 10px;
+  margin: 15px 10px;
   padding: 15px 10px;
   border-radius: 15px;
-  display: block;
+}
+
+.projects .card:hover {
+  transform: scale(1.05);
 }
 
 .projects .weather-app-ss {
-  margin: 10px auto;
+  margin: 10px 10px;
+  padding: 5px 20px;
 }
 
 .projects img {
+  width: calc(95% - 10px);
   border-radius: 10px;
 }
 
 .projects img:hover {
-  width: 305px;
+  transform: scale(1.05);
   opacity: 0.5;
 }
 
 .projects h1 {
-  font-size: 28px;
+  font-size: 35px;
   color: #fff;
   font-family: "Sora", sans-serif;
+  padding: 10px;
 }
 
 .projects p {
+  padding: 0 15px;
   color: #b1acac;
+  font-size: 18px;
+  text-align: justify;
 }
 
 .projects .card:hover {
@@ -253,6 +266,22 @@ footer {
 */
 
 /* media query start */
+@media (max-width: 1500px) {
+  .projects .projects-content {
+    display: block;
+    margin: 0 auto;
+    width: calc(70% - 10px);
+    text-align: center;
+  }
+  .projects h1 {
+    font-size: 30px;
+  }
+
+  .projects p {
+    font-size: 17px;
+  }
+}
+
 @media (max-width: 1400px) {
   .about-content {
     display: block;
@@ -285,7 +314,7 @@ footer {
   }
   .navbar .menu {
     position: fixed;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     left: -100%;
     top: 0;
@@ -324,5 +353,57 @@ footer {
   }
   .home .home-content {
     font-size: smaller;
+  }
+
+  .projects .projects-content {
+    display: block;
+    margin: 0 auto;
+    width: calc(70% - 10px);
+    text-align: center;
+  }
+  .projects h1 {
+    font-size: 20px;
+  }
+
+  .projects p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 450px) {
+  .projects .projects-content {
+    display: block;
+    margin: 0 auto;
+    width: calc(85% - 10px);
+    text-align: center;
+  }
+
+  .projects .weather-app-ss {
+    margin: 5px auto;
+    padding: 5px 5px;
+  }
+
+  .projects .weather-app-description {
+    margin: 2px 2px;
+  }
+  .projects h1 {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .projects p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 360px) {
+  .home .home-content .text1 {
+    font-size: 15px;
+  }
+  .home .home-content .text2 {
+    font-size: 3.9em;
+  }
+  .home .home-content .text3 {
+    font-size: 23px;
   }
 }
