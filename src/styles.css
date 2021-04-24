@@ -218,7 +218,7 @@ section {
   transform: scale(1.05);
 }
 
-.projects .weather-app-ss {
+.projects .app-screenshot {
   margin: 10px 10px;
   padding: 5px 20px;
 }
@@ -251,7 +251,7 @@ section {
   background: rgba(44, 44, 44, 0.9);
 }
 
-.projects .weather-app-description {
+.projects .app-description {
   margin: 20px auto;
 }
 
@@ -276,7 +276,6 @@ footer {
   .projects h1 {
     font-size: 30px;
   }
-
   .projects p {
     font-size: 17px;
   }
@@ -354,7 +353,6 @@ footer {
   .home .home-content {
     font-size: smaller;
   }
-
   .projects .projects-content {
     display: block;
     margin: 0 auto;
@@ -364,7 +362,6 @@ footer {
   .projects h1 {
     font-size: 20px;
   }
-
   .projects p {
     font-size: 15px;
   }
@@ -377,20 +374,17 @@ footer {
     width: calc(85% - 10px);
     text-align: center;
   }
-
-  .projects .weather-app-ss {
+  .projects .app-screenshot {
     margin: 5px auto;
     padding: 5px 5px;
   }
-
-  .projects .weather-app-description {
+  .projects .app-description {
     margin: 2px 2px;
   }
   .projects h1 {
     font-size: 18px;
     margin: 0;
   }
-
   .projects p {
     font-size: 14px;
   }
