@@ -133,11 +133,8 @@ body {
 }
 
 /* About me section styling */
-section {
-  padding: 100px 0;
-}
-
 .about {
+  padding: 100px 0;
   background: #fff;
   width: 100%;
 }
@@ -188,6 +185,8 @@ section {
   background: #0e0e0e;
   width: 100%;
   color: #fff;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .projects .title {
@@ -266,7 +265,6 @@ footer {
 */
 
 /* media query start */
-
 @media (max-width: 1400px) {
   .about-content {
     display: block;
@@ -358,6 +356,9 @@ footer {
 @media (max-width: 450px) {
   .projects .card-body {
     padding: 10px 3px;
+  }
+  .card-group {
+    width: 95%;
   }
 }
 
