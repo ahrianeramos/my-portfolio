@@ -41,26 +41,19 @@ body {
 }
 
 /* Logo styling */
-.navbar .logo {
-  font-size: 30px;
-  font-weight: 600;
-  float: left;
-}
-
 .navbar .logo a {
   text-decoration: none;
-  color: #fd2155;
   transition: all 0.3s ease;
 }
 
-.navbar .logo span {
-  color: #d3d3d3;
+.navbar .logo img:hover {
+  transition: all 0.3s ease;
+  opacity: .8;
 }
 
 .navbar.sticky .logo a {
-  font-family: monospace;
-  color: #fd2155;
   text-decoration: none;
+
 }
 
 /* menu styling */
@@ -113,12 +106,12 @@ body {
 
 .home .home-content .text1 {
   font-size: 20px;
-  font-family: "Sora", sans-serif;
+  font-family: monospace;
   color: #fd2155;
 }
 
 .home .home-content .text2 {
-  font-family: monospace;
+  font-family: Calibre, sans-serif;
   font-size: 5em;
   color: rgb(255, 255, 255);
   font-weight: bolder;
@@ -127,7 +120,7 @@ body {
 
 .home .home-content .text3 {
   padding: 0 10px;
-  font-size: 3em;
+  font-size: 1.5em;
   font-family: "Sora", sans-serif;
   color: #b1acac;
 }
@@ -370,7 +363,7 @@ footer {
     font-size: 3.9em;
   }
   .home .home-content .text3 {
-    font-size: 23px;
+    font-size: 1em;
   }
   .projects .icons i {
     font-size: 40px;
