@@ -110,7 +110,7 @@ body {
 }
 
 .home .home-content .text2 {
-  font-family: Calibre, sans-serif;
+  font-family: "Sora", sans-serif;
   font-size: 5em;
   color: rgb(255, 255, 255);
   font-weight: bolder;
@@ -189,6 +189,10 @@ body {
   font-weight: 600;
   margin-bottom: 60px;
   padding-bottom: 20px;
+}
+
+.projects .card-group {
+  padding: 0 30px;
 }
 
 .projects .card {
@@ -276,21 +280,18 @@ body {
 .contact li {
   display: inline;
   padding: 5px;
-
 }
 
 .contact li {
   font-family: "Sora", sans-serif;
   font-size: 15px;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .contact ul i {
   text-decoration: none;
-  color:#fd2155;
+  color: #fd2155;
   font-size: 30px;
-
-
 }
 
 .contact .icons {
@@ -300,14 +301,13 @@ body {
 .contact .icons a {
   display: inline;
   text-decoration: none;
-  color:#fd2155;
+  color: #fd2155;
   padding: 0 10px;
 }
 
 .contact .icons i {
   font-size: 30px;
 }
-
 
 /* Footer styling */
 .footer {
@@ -319,9 +319,7 @@ body {
 .footer p {
   color: #fd2155;
   font-size: 13px;
-
 }
-
 
 /* media query start */
 @media (max-width: 1400px) {
