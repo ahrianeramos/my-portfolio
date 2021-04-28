@@ -48,12 +48,11 @@ body {
 
 .navbar .logo img:hover {
   transition: all 0.3s ease;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .navbar.sticky .logo a {
   text-decoration: none;
-
 }
 
 /* menu styling */
@@ -247,15 +246,82 @@ body {
   background: rgba(44, 44, 44, 0.9);
 }
 
-/*
-footer {
-  text-align: center;
-  margin: 10px 0px 0px 0px;
-  padding: 10px 0px 0px 0px;
-  color: #fd2155;
-  font-size: 1.3rem;
+/* Contact me section styling */
+.contact {
+  padding: 100px 50px;
+  margin-bottom: 40px;
 }
-*/
+
+.contact .title {
+  position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+}
+
+.contact h7 {
+  font-family: "Sora", sans-serif;
+  display: block;
+  padding-bottom: 20px;
+}
+
+.contact ul {
+  padding-bottom: 25px;
+  list-style: none;
+}
+
+.contact li {
+  display: inline;
+  padding: 5px;
+
+}
+
+.contact li {
+  font-family: "Sora", sans-serif;
+  font-size: 15px;
+  opacity: .8;
+}
+
+.contact ul i {
+  text-decoration: none;
+  color:#fd2155;
+  font-size: 30px;
+
+
+}
+
+.contact .icons {
+  padding: 30px;
+}
+
+.contact .icons a {
+  display: inline;
+  text-decoration: none;
+  color:#fd2155;
+  padding: 0 10px;
+}
+
+.contact .icons i {
+  font-size: 30px;
+}
+
+
+/* Footer styling */
+.footer {
+  font-family: "Sora", sans-serif;
+  text-align: center;
+  margin: 30px auto;
+}
+
+.footer p {
+  color: #fd2155;
+  font-size: 13px;
+
+}
+
 
 /* media query start */
 @media (max-width: 1400px) {
