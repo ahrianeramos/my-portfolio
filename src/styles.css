@@ -286,11 +286,11 @@ body {
 }
 
 .contact li {
-  display: inline;
   padding: 5px;
+  display: inline;
 }
 
-.contact li {
+.contact ul li .email {
   font-family: "Sora", sans-serif;
   font-size: 15px;
   opacity: 0.8;
